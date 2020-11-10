@@ -1,0 +1,52 @@
+html,body{
+height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+}
+.app{
+    height:inherit;
+    background-color: #EEEEEE;
+}
+header{
+    background-color: black;
+    color: #FFFFFF;
+}
+header h1{
+    margin: 0;
+    font-size: 22px;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    background-color: dimgray;
+}
+footer #form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#task-input{
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+}
+#add-button{
+    background-color: black;
+    color: white;
+    width: 20%;
+}
+#task-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#task-list li{
+    background-color: azure;
+    padding: 10px;
+    font-size: 22px;
+    word-wrap: break-word;
+}
